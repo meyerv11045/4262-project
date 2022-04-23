@@ -11,7 +11,7 @@ class FeatureExtractor(torch.nn.Module):
         self.shape = shape 
         self.layers =  []
         self.activation = activation
-        self.softmax = torch.nn.Softmax(dim=1) 
+        # self.softmax = torch.nn.Softmax(dim=1) 
 
         for i in range(len(shape) - 1):
             layer = torch.nn.Linear(shape[i], shape[i + 1])
@@ -23,14 +23,12 @@ class FeatureExtractor(torch.nn.Module):
 
         self.layers = torch.nn.ModuleList(self.layers)
         self.extract_feature_mode = False
-        print(self.layers)
 
     def set_extract_feature_mode(self, status: bool):
         self.extract_feature_mode = status
 
     def forward(self, x):
         for i in range(len(self.layers) - 1):
-            print(self.layers[i])
             x = self.layers[i](x)
             x = self.activation(x)
 
@@ -40,4 +38,4 @@ class FeatureExtractor(torch.nn.Module):
             return x
 
         else:
-            return self.softmax(self.layers[-1](x))
+            return self.layers[-1](x)

@@ -10,4 +10,4 @@ class DateDataset(torch.utils.data.Dataset):
         return self.data.shape[0]
 
     def __getitem__(self, idx):
-        return self.data[idx, :-2], np.array(self.data[idx, -1])
+        return self.data[idx, :-1], np.array(self.data[idx, -1])
