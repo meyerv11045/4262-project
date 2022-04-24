@@ -16,10 +16,10 @@ Variations in the neural network feature extractor we could try:
     - will have to watch out for network just memorizing the dataset if we use the dates one with 1k training examples
 
 ### Todo:
-- [ ] Literature review (5-8 sources)
-- [ ] Implement Neural Network and training loop (WIP- vikram)
-- [ ] Implement SVM
-- [ ] Setup the testing framework that can easily record the results for each of the different methods for a given dataset
+- [x] Literature review (1-3 sources)
+- [x] Implement Neural Network and training loop
+- [x] Implement SVM
+- [x] Setup the testing framework that can easily record the results for each of the different methods for a given dataset
 - [ ] Find 3 classification datasets to test our hypothesis on
     - [ ] Data exploration and visualization of each dataset
     - [ ] Preprocess dataset (standardize features, remove/quantize categorical features/labels) and create pytorch dataset class for it
