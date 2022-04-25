@@ -8,6 +8,8 @@
 3. Raw features with SVM classifier (rbf kernel)
 4. NN extracted features with SVM classifier (linear kernel- same dim feature space)
 5. NN extracted features with SVM classifier (rbf kernel- infinite dim feature space)
+6. PCA extracted features with SVM classifier (linear kernel)
+7. PCA extracted featrues with SVM classifier (rbf kernel)
 
 Variations in the neural network feature extractor we could try:
 - use same NN for feature extraction and end to end classification. # neurons in final hidden layer = # features in original dataset (compares quality of learned features)
