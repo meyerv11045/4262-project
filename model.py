@@ -8,10 +8,10 @@ class FeatureExtractor(torch.nn.Module):
             activation: pytorch function specifying the activation function for all the layers
         """
         super().__init__()
+        self.out_features = shape[-2]
         self.shape = shape 
         self.layers =  []
         self.activation = activation
-        # self.softmax = torch.nn.Softmax(dim=1) 
 
         for i in range(len(shape) - 1):
             layer = torch.nn.Linear(shape[i], shape[i + 1])
@@ -26,6 +26,9 @@ class FeatureExtractor(torch.nn.Module):
 
     def set_extract_feature_mode(self, status: bool):
         self.extract_feature_mode = status
+
+    def get_out_features(self):
+        return self.out_features
 
     def forward(self, x):
         for i in range(len(self.layers) - 1):
