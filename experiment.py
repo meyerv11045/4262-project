@@ -6,9 +6,10 @@ from model import FeatureExtractor
 from datasets import DateDatasetV2
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.svm import SVC
-from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import KFold, StratifiedKFold
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 
 class Experiment:
@@ -188,14 +189,15 @@ class Experiment:
         train_data.X = X_train_pca
         test_data.X = X_test_pca
 
-        train_loader = torch.utils.data.DataLoader(train_data, batch_size=128, shuffle=False, pin_memory=True)
-        test_loader = torch.utils.data.DataLoader(test_data, batch_size=128, shuffle=False, pin_memory=True)
+        train_loader_pca = torch.utils.data.DataLoader(train_data, batch_size=128, shuffle=False, pin_memory=True)
+        test_loader_pca = torch.utils.data.DataLoader(test_data, batch_size=128, shuffle=False, pin_memory=True)
         
         
         pca_shape = self.shape.copy()
         pca_shape[0] = n_components
         pca_model = FeatureExtractor(pca_shape, torch.nn.functional.relu)
-        pca_model = self.train_classifier(pca_model, optimizer, loss_fn, train_loader, test_loader, epochs, f'{self.test_name}/pca-{fold}.pt')
+        optimizer = torch.optim.Adam(pca_model.parameters(), lr=1e-3)
+        pca_model = self.train_classifier(pca_model, optimizer, loss_fn, train_loader_pca, test_loader_pca, epochs, f'{self.test_name}/pca-{fold}.pt')
 
         results['nn_classifier_pca_feat'] = self.nn_classifier(test_data, pca_model)
 
@@ -215,7 +217,7 @@ class Experiment:
         data = data.sample(frac=1, random_state=42).reset_index(drop=True)
         
         # make sure percentages of each class are equal in all folds
-        skf = StratifiedKFold(n_splits=self.folds, shuffle=True, random_state=42)
+        skf = KFold(n_splits=self.folds, shuffle=True, random_state=42)
         
         X= data.drop('Class', axis=1)
         y= data.Class
@@ -230,6 +232,20 @@ class Experiment:
 
             X_train = X_train.to_numpy()
             X_test = X_test.to_numpy()
+            y_train = y_train.to_numpy()
+            y_test = y_test.to_numpy()
+
+            print(f'Fold {i}:')
+            a = y_test
+            m = len(a)
+            for i in range(7):
+                ct = 0
+                for j in range(len(a)):
+                    if i == a[j]:
+                        ct += 1
+                
+
+                print(f'class {i}: {ct} ct, {(ct/m)*100:.2f}% of test set')
 
             # Standardize based on train set and then apply to train and test set
             stdize = StandardScaler().fit(X_train)
@@ -237,8 +253,7 @@ class Experiment:
             X_train = stdize.transform(X_train)
             X_test = stdize.transform(X_test)
 
-            y_train = y_train.to_numpy()
-            y_test = y_test.to_numpy()
+
             
             results.append(self.results_for_fold(i, X_train, y_train, X_test, y_test))
             i += 1
@@ -257,8 +272,9 @@ class Experiment:
                 'nn_classifier_pca_feat': (0,0)}
         
         for res in results:
+            print(res)
             for k,v in res.items():
-                avg[k] = [sum(a) for a in zip(avg[k],v)]
+                avg[k] = (avg[k][0] + v[0], avg[k][1] + v[1])
         
         for k,v in avg.items():
             print(f'{k:<20}: accuracy: {(v[0]/m)*100:.2f}% f1 score: {v[1]/m:.4f}')
@@ -269,5 +285,5 @@ if __name__ == '__main__':
     out_features = 34
     n_classes = 7
     shape = [in_features, 1024, 1024, out_features, n_classes]
-    exp = Experiment(shape,'test2',41324)
+    exp = Experiment(shape,'test-kfold',41324, 10)
     exp.run()
