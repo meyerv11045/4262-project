@@ -1,3 +1,4 @@
+import argparse
 import os
 import torch
 import numpy as np
@@ -6,10 +7,9 @@ from model import FeatureExtractor
 from datasets import DateDatasetV2
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.svm import SVC
-from sklearn.model_selection import KFold, StratifiedKFold
+from sklearn.model_selection import KFold
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 
 class Experiment:
@@ -44,6 +44,7 @@ class Experiment:
                 loss.backward()
                 optimizer.step() 
                 
+                predictions = torch.log_softmax(predictions, dim = 1)
                 _, class_prediction = torch.max(predictions, dim=1)
                 train_correct += (class_prediction == y_batch).sum().item()
                 train_total += y_batch.shape[0]
@@ -58,8 +59,10 @@ class Experiment:
 
                 with torch.no_grad():
                     predictions = model(x_batch)
+                
                     loss = loss_fn(predictions, y_batch.long())
-
+                
+                    predictions = torch.log_softmax(predictions, dim = 1)
                     _, class_prediction = torch.max(predictions, dim=1)
                     val_correct += (class_prediction == y_batch).sum().item()
 
@@ -88,6 +91,7 @@ class Experiment:
         for i in range(m):
             x,y = val_data[i]
             prediction = model(torch.from_numpy(x).float())
+            prediction = torch.log_softmax(prediction, dim=0)
             # get index of class w/ max prob and set its value to be y_pred[i]
             y_pred[i] = torch.argmax(prediction).item()
             y_true[i] = y
@@ -216,7 +220,6 @@ class Experiment:
         # shuffle data in-place (all samples for a class are grouped together in original dataset)
         data = data.sample(frac=1, random_state=42).reset_index(drop=True)
         
-        # make sure percentages of each class are equal in all folds
         skf = KFold(n_splits=self.folds, shuffle=True, random_state=42)
         
         X= data.drop('Class', axis=1)
@@ -281,9 +284,16 @@ class Experiment:
 
 
 if __name__ == '__main__':
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-n','--folder_name', required=True)
+    parser.add_argument('-k','--k', type=int, default=10)
+    parser.add_argument('-s', '--seed', type=int, default=123)
+    args = parser.parse_args()
+    
     in_features = 34
     out_features = 34
     n_classes = 7
     shape = [in_features, 1024, 1024, out_features, n_classes]
-    exp = Experiment(shape,'test-kfold',41324, 10)
+    exp = Experiment(shape, args.folder_name, args.seed, args.k)
     exp.run()

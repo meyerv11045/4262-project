@@ -1,0 +1,306 @@
+Fold 1:
+class 0: 5 ct, 5.56% of test set
+class 1: 12 ct, 13.33% of test set
+class 2: 19 ct, 21.11% of test set
+class 3: 6 ct, 6.67% of test set
+class 4: 14 ct, 15.56% of test set
+class 5: 24 ct, 26.67% of test set
+class 6: 10 ct, 11.11% of test set
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 23.39%  Validation Loss: 0.02 Validaton Accuracy: 26.67%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 29.83%  Validation Loss: 0.02 Validaton Accuracy: 34.44%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 36.51%  Validation Loss: 0.02 Validaton Accuracy: 37.78%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 39.23%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 43.56%  Validation Loss: 0.01 Validaton Accuracy: 41.11%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 44.06%  Validation Loss: 0.01 Validaton Accuracy: 45.56%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 48.64%  Validation Loss: 0.01 Validaton Accuracy: 57.78%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 61.76%  Validation Loss: 0.01 Validaton Accuracy: 70.00%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 65.72%  Validation Loss: 0.01 Validaton Accuracy: 68.89%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 66.46%  Validation Loss: 0.01 Validaton Accuracy: 67.78%
+Epoch 1  / 10: Train Loss: 0.02  Train Accuracy: 9.78%  Validation Loss: 0.02 Validaton Accuracy: 24.44%
+Epoch 2  / 10: Train Loss: 0.02  Train Accuracy: 13.99%  Validation Loss: 0.02 Validaton Accuracy: 2.22%
+Epoch 3  / 10: Train Loss: 0.02  Train Accuracy: 11.14%  Validation Loss: 0.02 Validaton Accuracy: 6.67%
+Epoch 4  / 10: Train Loss: 0.02  Train Accuracy: 8.42%  Validation Loss: 0.02 Validaton Accuracy: 17.78%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 9.03%  Validation Loss: 0.02 Validaton Accuracy: 17.78%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 12.25%  Validation Loss: 0.02 Validaton Accuracy: 14.44%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 16.71%  Validation Loss: 0.02 Validaton Accuracy: 2.22%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 8.17%  Validation Loss: 0.02 Validaton Accuracy: 27.78%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 21.53%  Validation Loss: 0.02 Validaton Accuracy: 26.67%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 21.29%  Validation Loss: 0.02 Validaton Accuracy: 30.00%
+Fold 7:
+class 0: 9 ct, 10.00% of test set
+class 1: 11 ct, 12.22% of test set
+class 2: 22 ct, 24.44% of test set
+class 3: 5 ct, 5.56% of test set
+class 4: 12 ct, 13.33% of test set
+class 5: 21 ct, 23.33% of test set
+class 6: 10 ct, 11.11% of test set
+Epoch 1  / 10: Train Loss: 0.02  Train Accuracy: 22.90%  Validation Loss: 0.02 Validaton Accuracy: 33.33%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 31.56%  Validation Loss: 0.02 Validaton Accuracy: 32.22%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 32.05%  Validation Loss: 0.02 Validaton Accuracy: 32.22%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 31.93%  Validation Loss: 0.02 Validaton Accuracy: 32.22%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 32.18%  Validation Loss: 0.02 Validaton Accuracy: 31.11%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 32.30%  Validation Loss: 0.02 Validaton Accuracy: 31.11%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 35.52%  Validation Loss: 0.02 Validaton Accuracy: 37.78%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 40.47%  Validation Loss: 0.02 Validaton Accuracy: 36.67%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 40.59%  Validation Loss: 0.02 Validaton Accuracy: 37.78%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 42.20%  Validation Loss: 0.01 Validaton Accuracy: 36.67%
+Epoch 1  / 10: Train Loss: 0.02  Train Accuracy: 30.94%  Validation Loss: 0.02 Validaton Accuracy: 63.33%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 62.38%  Validation Loss: 0.02 Validaton Accuracy: 63.33%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 66.96%  Validation Loss: 0.02 Validaton Accuracy: 64.44%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 68.44%  Validation Loss: 0.01 Validaton Accuracy: 65.56%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 68.56%  Validation Loss: 0.01 Validaton Accuracy: 61.11%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 68.19%  Validation Loss: 0.01 Validaton Accuracy: 65.56%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 71.78%  Validation Loss: 0.01 Validaton Accuracy: 65.56%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 73.02%  Validation Loss: 0.01 Validaton Accuracy: 65.56%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 72.15%  Validation Loss: 0.01 Validaton Accuracy: 66.67%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 71.16%  Validation Loss: 0.01 Validaton Accuracy: 65.56%
+Fold 7:
+class 0: 6 ct, 6.67% of test set
+class 1: 12 ct, 13.33% of test set
+class 2: 24 ct, 26.67% of test set
+class 3: 7 ct, 7.78% of test set
+class 4: 14 ct, 15.56% of test set
+class 5: 21 ct, 23.33% of test set
+class 6: 6 ct, 6.67% of test set
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 49.50%  Validation Loss: 0.01 Validaton Accuracy: 57.78%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 58.66%  Validation Loss: 0.01 Validaton Accuracy: 62.22%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 63.74%  Validation Loss: 0.01 Validaton Accuracy: 62.22%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 66.21%  Validation Loss: 0.01 Validaton Accuracy: 67.78%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 68.94%  Validation Loss: 0.01 Validaton Accuracy: 66.67%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 71.04%  Validation Loss: 0.01 Validaton Accuracy: 68.89%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 73.14%  Validation Loss: 0.01 Validaton Accuracy: 68.89%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 73.14%  Validation Loss: 0.01 Validaton Accuracy: 68.89%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 73.89%  Validation Loss: 0.01 Validaton Accuracy: 67.78%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 73.76%  Validation Loss: 0.01 Validaton Accuracy: 67.78%
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 29.08%  Validation Loss: 0.02 Validaton Accuracy: 42.22%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 40.35%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 39.23%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 40.72%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 40.72%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 40.59%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 40.84%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 40.84%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 40.84%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 40.84%  Validation Loss: 0.01 Validaton Accuracy: 42.22%
+Fold 7:
+class 0: 5 ct, 5.56% of test set
+class 1: 7 ct, 7.78% of test set
+class 2: 19 ct, 21.11% of test set
+class 3: 7 ct, 7.78% of test set
+class 4: 19 ct, 21.11% of test set
+class 5: 27 ct, 30.00% of test set
+class 6: 6 ct, 6.67% of test set
+Epoch 1  / 10: Train Loss: 0.02  Train Accuracy: 44.68%  Validation Loss: 0.01 Validaton Accuracy: 60.00%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 57.43%  Validation Loss: 0.01 Validaton Accuracy: 65.56%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 61.76%  Validation Loss: 0.01 Validaton Accuracy: 66.67%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 63.61%  Validation Loss: 0.01 Validaton Accuracy: 68.89%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 63.86%  Validation Loss: 0.01 Validaton Accuracy: 70.00%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 69.55%  Validation Loss: 0.01 Validaton Accuracy: 73.33%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 71.78%  Validation Loss: 0.01 Validaton Accuracy: 74.44%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 72.90%  Validation Loss: 0.01 Validaton Accuracy: 84.44%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 77.72%  Validation Loss: 0.01 Validaton Accuracy: 86.67%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 79.58%  Validation Loss: 0.01 Validaton Accuracy: 86.67%
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 40.10%  Validation Loss: 0.01 Validaton Accuracy: 54.44%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 44.80%  Validation Loss: 0.01 Validaton Accuracy: 54.44%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 47.52%  Validation Loss: 0.01 Validaton Accuracy: 54.44%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 46.29%  Validation Loss: 0.01 Validaton Accuracy: 54.44%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 47.28%  Validation Loss: 0.01 Validaton Accuracy: 55.56%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 47.65%  Validation Loss: 0.01 Validaton Accuracy: 56.67%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 48.27%  Validation Loss: 0.01 Validaton Accuracy: 56.67%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 48.02%  Validation Loss: 0.01 Validaton Accuracy: 55.56%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 48.39%  Validation Loss: 0.01 Validaton Accuracy: 55.56%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 48.02%  Validation Loss: 0.01 Validaton Accuracy: 55.56%
+Fold 7:
+class 0: 7 ct, 7.78% of test set
+class 1: 11 ct, 12.22% of test set
+class 2: 18 ct, 20.00% of test set
+class 3: 8 ct, 8.89% of test set
+class 4: 19 ct, 21.11% of test set
+class 5: 18 ct, 20.00% of test set
+class 6: 9 ct, 10.00% of test set
+Epoch 1  / 10: Train Loss: 0.02  Train Accuracy: 23.39%  Validation Loss: 0.02 Validaton Accuracy: 38.89%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 44.80%  Validation Loss: 0.02 Validaton Accuracy: 40.00%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 45.17%  Validation Loss: 0.02 Validaton Accuracy: 40.00%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 44.68%  Validation Loss: 0.02 Validaton Accuracy: 40.00%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 44.55%  Validation Loss: 0.01 Validaton Accuracy: 40.00%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 45.30%  Validation Loss: 0.01 Validaton Accuracy: 40.00%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 45.30%  Validation Loss: 0.01 Validaton Accuracy: 40.00%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 45.67%  Validation Loss: 0.01 Validaton Accuracy: 40.00%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 45.92%  Validation Loss: 0.01 Validaton Accuracy: 40.00%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 53.96%  Validation Loss: 0.01 Validaton Accuracy: 60.00%
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 32.05%  Validation Loss: 0.02 Validaton Accuracy: 35.56%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 37.38%  Validation Loss: 0.02 Validaton Accuracy: 36.67%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 39.48%  Validation Loss: 0.02 Validaton Accuracy: 37.78%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 40.22%  Validation Loss: 0.01 Validaton Accuracy: 37.78%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 39.73%  Validation Loss: 0.02 Validaton Accuracy: 38.89%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 39.48%  Validation Loss: 0.01 Validaton Accuracy: 38.89%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 39.73%  Validation Loss: 0.01 Validaton Accuracy: 38.89%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 39.48%  Validation Loss: 0.01 Validaton Accuracy: 37.78%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 39.36%  Validation Loss: 0.01 Validaton Accuracy: 36.67%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 39.11%  Validation Loss: 0.01 Validaton Accuracy: 50.00%
+Fold 7:
+class 0: 4 ct, 4.44% of test set
+class 1: 12 ct, 13.33% of test set
+class 2: 16 ct, 17.78% of test set
+class 3: 7 ct, 7.78% of test set
+class 4: 18 ct, 20.00% of test set
+class 5: 21 ct, 23.33% of test set
+class 6: 12 ct, 13.33% of test set
+Epoch 1  / 10: Train Loss: 0.02  Train Accuracy: 9.28%  Validation Loss: 0.02 Validaton Accuracy: 8.89%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 10.89%  Validation Loss: 0.02 Validaton Accuracy: 17.78%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 13.12%  Validation Loss: 0.02 Validaton Accuracy: 13.33%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 20.42%  Validation Loss: 0.02 Validaton Accuracy: 44.44%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 59.90%  Validation Loss: 0.01 Validaton Accuracy: 61.11%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 63.49%  Validation Loss: 0.01 Validaton Accuracy: 57.78%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 65.10%  Validation Loss: 0.01 Validaton Accuracy: 62.22%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 66.83%  Validation Loss: 0.01 Validaton Accuracy: 64.44%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 68.19%  Validation Loss: 0.01 Validaton Accuracy: 62.22%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 68.81%  Validation Loss: 0.01 Validaton Accuracy: 67.78%
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 36.63%  Validation Loss: 0.02 Validaton Accuracy: 43.33%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 56.31%  Validation Loss: 0.01 Validaton Accuracy: 52.22%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 60.52%  Validation Loss: 0.01 Validaton Accuracy: 54.44%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 61.39%  Validation Loss: 0.02 Validaton Accuracy: 54.44%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 63.12%  Validation Loss: 0.01 Validaton Accuracy: 54.44%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 63.99%  Validation Loss: 0.01 Validaton Accuracy: 55.56%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 66.09%  Validation Loss: 0.01 Validaton Accuracy: 56.67%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 65.59%  Validation Loss: 0.01 Validaton Accuracy: 55.56%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 66.09%  Validation Loss: 0.01 Validaton Accuracy: 56.67%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 65.97%  Validation Loss: 0.01 Validaton Accuracy: 55.56%
+Fold 7:
+class 0: 6 ct, 6.67% of test set
+class 1: 11 ct, 12.22% of test set
+class 2: 18 ct, 20.00% of test set
+class 3: 9 ct, 10.00% of test set
+class 4: 18 ct, 20.00% of test set
+class 5: 14 ct, 15.56% of test set
+class 6: 14 ct, 15.56% of test set
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 38.24%  Validation Loss: 0.01 Validaton Accuracy: 47.78%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 47.28%  Validation Loss: 0.01 Validaton Accuracy: 45.56%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 47.40%  Validation Loss: 0.01 Validaton Accuracy: 48.89%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 57.67%  Validation Loss: 0.01 Validaton Accuracy: 63.33%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 69.93%  Validation Loss: 0.01 Validaton Accuracy: 65.56%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 70.42%  Validation Loss: 0.01 Validaton Accuracy: 62.22%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 70.30%  Validation Loss: 0.01 Validaton Accuracy: 65.56%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 70.79%  Validation Loss: 0.01 Validaton Accuracy: 64.44%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 70.79%  Validation Loss: 0.01 Validaton Accuracy: 64.44%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 71.04%  Validation Loss: 0.01 Validaton Accuracy: 65.56%
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 29.58%  Validation Loss: 0.02 Validaton Accuracy: 37.78%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 37.38%  Validation Loss: 0.02 Validaton Accuracy: 36.67%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 38.37%  Validation Loss: 0.02 Validaton Accuracy: 34.44%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 38.86%  Validation Loss: 0.01 Validaton Accuracy: 37.78%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 39.73%  Validation Loss: 0.01 Validaton Accuracy: 43.33%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 41.21%  Validation Loss: 0.01 Validaton Accuracy: 44.44%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 40.84%  Validation Loss: 0.01 Validaton Accuracy: 43.33%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 39.98%  Validation Loss: 0.01 Validaton Accuracy: 40.00%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 39.36%  Validation Loss: 0.01 Validaton Accuracy: 41.11%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 40.59%  Validation Loss: 0.01 Validaton Accuracy: 40.00%
+Fold 7:
+class 0: 7 ct, 7.78% of test set
+class 1: 9 ct, 10.00% of test set
+class 2: 18 ct, 20.00% of test set
+class 3: 11 ct, 12.22% of test set
+class 4: 20 ct, 22.22% of test set
+class 5: 14 ct, 15.56% of test set
+class 6: 11 ct, 12.22% of test set
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 40.84%  Validation Loss: 0.02 Validaton Accuracy: 45.56%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 47.03%  Validation Loss: 0.01 Validaton Accuracy: 45.56%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 48.76%  Validation Loss: 0.02 Validaton Accuracy: 51.11%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 55.57%  Validation Loss: 0.02 Validaton Accuracy: 65.56%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 71.91%  Validation Loss: 0.02 Validaton Accuracy: 64.44%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 71.53%  Validation Loss: 0.01 Validaton Accuracy: 67.78%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 72.28%  Validation Loss: 0.02 Validaton Accuracy: 64.44%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 72.52%  Validation Loss: 0.01 Validaton Accuracy: 62.22%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 73.64%  Validation Loss: 0.01 Validaton Accuracy: 70.00%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 74.63%  Validation Loss: 0.01 Validaton Accuracy: 71.11%
+Epoch 1  / 10: Train Loss: 0.02  Train Accuracy: 21.66%  Validation Loss: 0.02 Validaton Accuracy: 34.44%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 26.49%  Validation Loss: 0.02 Validaton Accuracy: 33.33%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 26.98%  Validation Loss: 0.02 Validaton Accuracy: 33.33%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 27.85%  Validation Loss: 0.02 Validaton Accuracy: 47.78%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 50.00%  Validation Loss: 0.02 Validaton Accuracy: 50.00%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 49.63%  Validation Loss: 0.02 Validaton Accuracy: 50.00%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 49.50%  Validation Loss: 0.02 Validaton Accuracy: 50.00%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 49.26%  Validation Loss: 0.02 Validaton Accuracy: 50.00%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 49.26%  Validation Loss: 0.02 Validaton Accuracy: 50.00%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 49.50%  Validation Loss: 0.02 Validaton Accuracy: 50.00%
+Fold 7:
+class 0: 13 ct, 14.61% of test set
+class 1: 6 ct, 6.74% of test set
+class 2: 22 ct, 24.72% of test set
+class 3: 6 ct, 6.74% of test set
+class 4: 18 ct, 20.22% of test set
+class 5: 15 ct, 16.85% of test set
+class 6: 9 ct, 10.11% of test set
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 48.83%  Validation Loss: 0.01 Validaton Accuracy: 50.56%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 55.38%  Validation Loss: 0.01 Validaton Accuracy: 51.69%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 56.49%  Validation Loss: 0.01 Validaton Accuracy: 51.69%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 56.24%  Validation Loss: 0.01 Validaton Accuracy: 51.69%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 58.10%  Validation Loss: 0.01 Validaton Accuracy: 51.69%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 57.73%  Validation Loss: 0.01 Validaton Accuracy: 51.69%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 58.22%  Validation Loss: 0.01 Validaton Accuracy: 51.69%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 58.22%  Validation Loss: 0.01 Validaton Accuracy: 51.69%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 58.59%  Validation Loss: 0.01 Validaton Accuracy: 51.69%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 59.83%  Validation Loss: 0.01 Validaton Accuracy: 58.43%
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 50.93%  Validation Loss: 0.01 Validaton Accuracy: 55.06%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 62.05%  Validation Loss: 0.01 Validaton Accuracy: 67.42%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 68.85%  Validation Loss: 0.01 Validaton Accuracy: 78.65%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 80.59%  Validation Loss: 0.01 Validaton Accuracy: 83.15%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 81.95%  Validation Loss: 0.01 Validaton Accuracy: 87.64%
+Epoch 6  / 10: Train Loss: 0.00  Train Accuracy: 84.30%  Validation Loss: 0.01 Validaton Accuracy: 89.89%
+Epoch 7  / 10: Train Loss: 0.00  Train Accuracy: 86.03%  Validation Loss: 0.01 Validaton Accuracy: 89.89%
+Epoch 8  / 10: Train Loss: 0.00  Train Accuracy: 87.14%  Validation Loss: 0.01 Validaton Accuracy: 91.01%
+Epoch 9  / 10: Train Loss: 0.00  Train Accuracy: 86.77%  Validation Loss: 0.00 Validaton Accuracy: 89.89%
+Epoch 10 / 10: Train Loss: 0.00  Train Accuracy: 90.36%  Validation Loss: 0.00 Validaton Accuracy: 91.01%
+Fold 7:
+class 0: 3 ct, 3.37% of test set
+class 1: 7 ct, 7.87% of test set
+class 2: 28 ct, 31.46% of test set
+class 3: 6 ct, 6.74% of test set
+class 4: 14 ct, 15.73% of test set
+class 5: 24 ct, 26.97% of test set
+class 6: 7 ct, 7.87% of test set
+Epoch 1  / 10: Train Loss: 0.02  Train Accuracy: 38.57%  Validation Loss: 0.02 Validaton Accuracy: 47.19%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 47.34%  Validation Loss: 0.02 Validaton Accuracy: 49.44%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 49.69%  Validation Loss: 0.02 Validaton Accuracy: 49.44%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 49.20%  Validation Loss: 0.02 Validaton Accuracy: 48.31%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 49.94%  Validation Loss: 0.02 Validaton Accuracy: 49.44%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 50.06%  Validation Loss: 0.02 Validaton Accuracy: 49.44%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 50.19%  Validation Loss: 0.02 Validaton Accuracy: 49.44%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 49.94%  Validation Loss: 0.01 Validaton Accuracy: 49.44%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 49.94%  Validation Loss: 0.01 Validaton Accuracy: 49.44%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 50.06%  Validation Loss: 0.02 Validaton Accuracy: 49.44%
+Epoch 1  / 10: Train Loss: 0.01  Train Accuracy: 31.03%  Validation Loss: 0.02 Validaton Accuracy: 31.46%
+Epoch 2  / 10: Train Loss: 0.01  Train Accuracy: 32.51%  Validation Loss: 0.02 Validaton Accuracy: 31.46%
+Epoch 3  / 10: Train Loss: 0.01  Train Accuracy: 32.51%  Validation Loss: 0.02 Validaton Accuracy: 31.46%
+Epoch 4  / 10: Train Loss: 0.01  Train Accuracy: 33.13%  Validation Loss: 0.02 Validaton Accuracy: 33.71%
+Epoch 5  / 10: Train Loss: 0.01  Train Accuracy: 34.24%  Validation Loss: 0.02 Validaton Accuracy: 34.83%
+Epoch 6  / 10: Train Loss: 0.01  Train Accuracy: 34.98%  Validation Loss: 0.02 Validaton Accuracy: 34.83%
+Epoch 7  / 10: Train Loss: 0.01  Train Accuracy: 36.22%  Validation Loss: 0.02 Validaton Accuracy: 34.83%
+Epoch 8  / 10: Train Loss: 0.01  Train Accuracy: 36.34%  Validation Loss: 0.02 Validaton Accuracy: 35.96%
+Epoch 9  / 10: Train Loss: 0.01  Train Accuracy: 39.06%  Validation Loss: 0.02 Validaton Accuracy: 35.96%
+Epoch 10 / 10: Train Loss: 0.01  Train Accuracy: 39.80%  Validation Loss: 0.02 Validaton Accuracy: 38.20%
+{'nn_classifier_raw_feat': (0.6777777777777778, 0.6028728141631368), 'lin_svm_raw_feat': (0.9222222222222223, 0.9251146384479717), 'rbf_svm_raw_feat': (0.8888888888888888, 0.8906399426867263), 'lin_svm_nn_feat': (0.8777777777777778, 0.8811423146381318), 'rbf_svm_nn_feat': (0.9, 0.9000949667616334), 'lin_svm_pca_feat': (0.9222222222222223, 0.9251146384479717), 'rbf_svm_pca_feat': (0.8888888888888888, 0.8906399426867263), 'nn_classifier_pca_feat': (0.3, 0.17928205128205124)}
+{'nn_classifier_raw_feat': (0.36666666666666664, 0.27169456755883054), 'lin_svm_raw_feat': (0.9222222222222223, 0.9224004753416518), 'rbf_svm_raw_feat': (0.8666666666666667, 0.8598424173080924), 'lin_svm_nn_feat': (0.7555555555555555, 0.7320381309511744), 'rbf_svm_nn_feat': (0.7, 0.6439780831085179), 'lin_svm_pca_feat': (0.9333333333333333, 0.9333333333333333), 'rbf_svm_pca_feat': (0.8666666666666667, 0.8598424173080924), 'nn_classifier_pca_feat': (0.6555555555555556, 0.5823200707338638)}
+{'nn_classifier_raw_feat': (0.6777777777777778, 0.6188318195214747), 'lin_svm_raw_feat': (0.9555555555555556, 0.9548752834467119), 'rbf_svm_raw_feat': (0.9333333333333333, 0.9322393162393163), 'lin_svm_nn_feat': (0.9222222222222223, 0.9144078144078145), 'rbf_svm_nn_feat': (0.9, 0.8895134560839332), 'lin_svm_pca_feat': (0.9555555555555556, 0.9548752834467119), 'rbf_svm_pca_feat': (0.9333333333333333, 0.9322393162393163), 'nn_classifier_pca_feat': (0.4222222222222222, 0.2794845001741554)}
+{'nn_classifier_raw_feat': (0.8666666666666667, 0.8369047619047619), 'lin_svm_raw_feat': (0.9444444444444444, 0.9454918737937605), 'rbf_svm_raw_feat': (0.9333333333333333, 0.9356437389770723), 'lin_svm_nn_feat': (0.9111111111111111, 0.9091091091091091), 'rbf_svm_nn_feat': (0.9222222222222223, 0.9165165165165164), 'lin_svm_pca_feat': (0.9333333333333333, 0.9345028628047495), 'rbf_svm_pca_feat': (0.9333333333333333, 0.9356437389770723), 'nn_classifier_pca_feat': (0.5555555555555556, 0.44635351153039826)}
+{'nn_classifier_raw_feat': (0.6, 0.4952035368702035), 'lin_svm_raw_feat': (0.9555555555555556, 0.9548115018703255), 'rbf_svm_raw_feat': (0.9333333333333333, 0.9320648487315154), 'lin_svm_nn_feat': (0.6, 0.49878234398782345), 'rbf_svm_nn_feat': (0.5888888888888889, 0.49519825708061), 'lin_svm_pca_feat': (0.9555555555555556, 0.9548115018703255), 'rbf_svm_pca_feat': (0.9333333333333333, 0.9320648487315154), 'nn_classifier_pca_feat': (0.5, 0.3982726045883941)}
+{'nn_classifier_raw_feat': (0.6777777777777778, 0.5998725190275106), 'lin_svm_raw_feat': (0.8777777777777778, 0.8780518964828531), 'rbf_svm_raw_feat': (0.8666666666666667, 0.866085693536674), 'lin_svm_nn_feat': (0.7777777777777778, 0.7669135802469136), 'rbf_svm_nn_feat': (0.7555555555555555, 0.733974119101356), 'lin_svm_pca_feat': (0.8777777777777778, 0.8780518964828531), 'rbf_svm_pca_feat': (0.8666666666666667, 0.866085693536674), 'nn_classifier_pca_feat': (0.5555555555555556, 0.4925467514941199)}
+{'nn_classifier_raw_feat': (0.6555555555555556, 0.545607400801088), 'lin_svm_raw_feat': (0.9, 0.8984340008024219), 'rbf_svm_raw_feat': (0.8777777777777778, 0.8737946718648473), 'lin_svm_nn_feat': (0.6666666666666666, 0.6110065286673473), 'rbf_svm_nn_feat': (0.6333333333333333, 0.5523192161193945), 'lin_svm_pca_feat': (0.9333333333333333, 0.9313347207721073), 'rbf_svm_pca_feat': (0.8777777777777778, 0.8737946718648473), 'nn_classifier_pca_feat': (0.4, 0.307849969797058)}
+{'nn_classifier_raw_feat': (0.7111111111111111, 0.6327086844174813), 'lin_svm_raw_feat': (0.9, 0.8994708994708994), 'rbf_svm_raw_feat': (0.8888888888888888, 0.8891367307156781), 'lin_svm_nn_feat': (0.7888888888888889, 0.7589407814407815), 'rbf_svm_nn_feat': (0.7888888888888889, 0.7532317562149159), 'lin_svm_pca_feat': (0.9111111111111111, 0.9121152554589086), 'rbf_svm_pca_feat': (0.8888888888888888, 0.8891367307156781), 'nn_classifier_pca_feat': (0.5, 0.4002565335898669)}
+{'nn_classifier_raw_feat': (0.5842696629213483, 0.5732830596775187), 'lin_svm_raw_feat': (0.9662921348314607, 0.9665846889383259), 'rbf_svm_raw_feat': (0.9887640449438202, 0.9888660046085768), 'lin_svm_nn_feat': (0.7303370786516854, 0.7029443994380066), 'rbf_svm_nn_feat': (0.7303370786516854, 0.7046014667593171), 'lin_svm_pca_feat': (0.9775280898876404, 0.9778491171749598), 'rbf_svm_pca_feat': (0.9887640449438202, 0.9888660046085768), 'nn_classifier_pca_feat': (0.9101123595505618, 0.9085381847183679)}
+{'nn_classifier_raw_feat': (0.4943820224719101, 0.3496849380684518), 'lin_svm_raw_feat': (0.898876404494382, 0.8983036675526327), 'rbf_svm_raw_feat': (0.9325842696629213, 0.9317623134728579), 'lin_svm_nn_feat': (0.5617977528089888, 0.5021561034425089), 'rbf_svm_nn_feat': (0.6741573033707865, 0.5994190238380381), 'lin_svm_pca_feat': (0.898876404494382, 0.8983036675526327), 'rbf_svm_pca_feat': (0.9325842696629213, 0.9317623134728579), 'nn_classifier_pca_feat': (0.38202247191011235, 0.32623138114246325)}
+
+
+
+nn_classifier_raw_feat: accuracy: 63.12% f1 score: 0.5527
+lin_svm_raw_feat    : accuracy: 92.43% f1 score: 0.9244
+rbf_svm_raw_feat    : accuracy: 91.10% f1 score: 0.9100
+lin_svm_nn_feat     : accuracy: 75.92% f1 score: 0.7277
+rbf_svm_nn_feat     : accuracy: 75.93% f1 score: 0.7189
+lin_svm_pca_feat    : accuracy: 92.99% f1 score: 0.9300
+rbf_svm_pca_feat    : accuracy: 91.10% f1 score: 0.9100
+nn_classifier_pca_feat: accuracy: 51.81% f1 score: 0.4321
+
+
+nn_classifier_raw_feat: accuracy: 63.12% f1 score: 0.5527
+lin_svm_nn_feat     : accuracy: 75.92% f1 score: 0.7277
+rbf_svm_nn_feat     : accuracy: 75.93% f1 score: 0.7189
